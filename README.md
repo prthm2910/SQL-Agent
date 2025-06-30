@@ -19,11 +19,11 @@ This project demonstrates how to build a powerful **SQL Agent** using [LangGraph
 | Tool        | Purpose                                 |
 |-------------|------------------------------------------|
 | LangGraph   | Agent state machine and workflow engine |
-| LangChain   | LLM framework with tools for SQL         |
-| SQLAlchemy  | Database access abstraction layer        |
-| SQLite      | Example SQL database (can be swapped)    |
+| LangChain   | LLM framework with SQL support tools     |
+| SQLite      | Lightweight embedded SQL database        |
 | Python      | Core programming language                |
 | OpenAI API  | Language model backend                   |
+
 
 ---
 
@@ -82,25 +82,9 @@ This project demonstrates how to build a powerful **SQL Agent** using [LangGraph
 
 ## 🧩 Extending the Project
 
-Want to add write capabilities? You can:
 - Build custom LangChain tools for SQL `INSERT`, `UPDATE`, etc.
 - Integrate schema validation for safer write operations.
 - Add UI with Streamlit or Gradio.
 
 ---
 
-## 🤝 Contributing
-
-Contributions, bug reports, and ideas are welcome! Please open an issue or PR.
-
----
-
-## 📄 License
-
-This tutorial is open-sourced under the MIT License.
-
----
-
-## 🌐 Credits
-
-Developed with ❤️ using LangGraph and LangChain.
