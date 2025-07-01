@@ -54,8 +54,7 @@ This project demonstrates how to build a powerful **SQL Agent** using [LangGraph
 3. **Configure Environment Variables**
    Set your OpenAI API Key:
    ```bash
-   export OPENAI_API_KEY=your-key-here  # For Linux/macOS
-   set OPENAI_API_KEY=your-key-here     # For Windows
+      OPENAI_API_KEY=your-key-here    
    ```
 
 
