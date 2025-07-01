@@ -27,6 +27,12 @@ This project demonstrates how to build a powerful **SQL Agent** using [LangGraph
 
 ---
 
+## Workflow
+
+![SQL Agent Workflow](SQL - Agent Workflow Diagram.png)
+
+---
+
 ## 📁 File Structure
 
 ```
