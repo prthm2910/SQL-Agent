@@ -27,9 +27,40 @@ This project demonstrates how to build a powerful **SQL Agent** using [LangGraph
 
 ---
 
-## Workflow
+## 🧭 Agent Workflow Explained
 
 ![SQL Agent Workflow](SQL-Agent-Workflow-Diagram.png)
+
+
+The following diagram illustrates the **LangGraph SQL Agent's reasoning process** — a step-by-step flow enabling natural language to SQL execution through LLM-powered tools:
+
+
+
+### 🔄 Step-by-Step Breakdown
+
+- **`__start__`**  
+  Entry point of the graph-based agent.
+
+- **`list_tables`**  
+  Retrieves a list of all tables in the database to give the agent context about available data.
+
+- **`call_get_schema`**  
+  Triggers the retrieval of detailed schema information for specific tables.
+
+- **`get_schema`**  
+  Gathers column names, data types, and structure — critical for accurate SQL generation.
+
+- **`generate_query`**  
+  The LLM generates a SQL query based on the user's natural language input and the retrieved schema.
+
+- **`check_query`** *(optional validation step)*  
+  Evaluates the SQL query. If an error is detected, it loops back to refine or regenerate the query.
+
+- **`run_query`**  
+  Executes the generated query on the connected database and collects the result.
+
+- **`__end__`**  
+  Final state of the graph. Either returns a successful result or exits gracefully if an issue occurs.
 
 ---
 
