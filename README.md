@@ -67,9 +67,9 @@ The above diagram illustrates the **LangGraph SQL Agent's reasoning process** �
 ## 📁 File Structure
 
 ```
-├── sql-agent.ipynb        # Main tutorial notebook
-├── requirements.txt       # Python dependencies (if available)
-└── README.md              # You're here!
+├── sql-agent.ipynb        
+├── requirements.txt       
+└── README.md              
 ```
 
 ---
