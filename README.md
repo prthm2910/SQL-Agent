@@ -18,7 +18,7 @@ This project demonstrates how to build a powerful **SQL Agent** using [LangGraph
 
 | Tool        | Purpose                                 |
 |-------------|------------------------------------------|
-| LangGraph   | Agent state machine and workflow engine |
+| LangGraph   | Agent Workflow Orchestration Framework |
 | LangChain   | LLM framework with SQL support tools     |
 | SQLite      | Lightweight embedded SQL database        |
 | Python      | Core programming language                |
