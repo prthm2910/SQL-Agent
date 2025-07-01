@@ -29,7 +29,9 @@ This project demonstrates how to build a powerful **SQL Agent** using [LangGraph
 
 ## 🧭 Agent Workflow Explained
 
-![SQL Agent Workflow](SQL-Agent-Workflow-Diagram.png)
+<p align="center">
+  <img src="SQL-Agent-Workflow-Diagram.png" alt="SQL Agent Workflow" />
+</p>
 
 
 The above diagram illustrates the **LangGraph SQL Agent's reasoning process** — a step-by-step flow enabling natural language to SQL execution through LLM-powered tools:
